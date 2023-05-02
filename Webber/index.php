@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<body>
+<body><p>amogus</p>
 <?php 
     while($row = $result->fetch_assoc()){
         echo $row["ID"]."---".$row["Nama"]."---".$row["Alamat"]."---".$row["Jabatan"]."<br>";
